@@ -5,7 +5,7 @@ public class SevenSegment {
     }
 
     public static void display(int n) {
-        String[] lines = new String[5]; // Array to hold 5 lines for ASCII art        
+        String[] lines = new String[5];      
         while (n > 0) {
             int digit = n % 10;
             n = n / 10;
